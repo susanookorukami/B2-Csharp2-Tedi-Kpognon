@@ -4,11 +4,13 @@ using System.Text;
 
 namespace MyApp.Model
 {
-    public class Habitants
+    public class Region
     {
-        public string nom;
-        public int age;
+        public int codeR;
+        public string nomR;
 
         public List<Commune> Communes { get; set; }
+        public List<Departement> Departements { get; set; }
+
     }
 }
